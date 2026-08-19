@@ -1,0 +1,42 @@
+.main{
+    width:1320px;
+    height:600px;
+    border:5px solid red;
+    margin: auto;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+div{
+    width:300px;
+    height:200px;
+    border: 3px solid black;
+    display: inline-block;
+    padding-top: 50px;
+}
+#ab1{
+    background-color: rgb(16, 251, 102);
+    position:absolute;
+    top:90px;
+}
+#ab2{
+    background-color: rgb(95, 226, 14);
+    position:absolute;
+    right:135px;
+    bottom:30px;
+
+}
+#ab3{
+    background-color: rgb(236, 20, 225);
+    position:absolute;
+    left:1030px;
+    top:90px
+    
+
+}
+#ab4{
+    background-color: coral;
+    position:absolute;
+    bottom:30px;
+}
