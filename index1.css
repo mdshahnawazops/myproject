@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    width:300px;
+    height:200px;
+    border:2px solid black;
+    background-color:burlywood;
+    display: inline-block;
+    color:rgb(237, 7, 137);
+}
+#b1{
+    position: static;
+   
+    /* left:24px 
+    right:40px; */
+    top:50px;
+    /* bottom: 45px;  will be no change  beacuse position is static */
+
