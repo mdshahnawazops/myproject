@@ -1,0 +1,63 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* 1. Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  padding: 15px 30px;
+  background-color: #626162;
+  color: white;
+}
+
+/* 2. Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(232, 236, 31);
+}
+
+
+.nav-links {
+  display: flex;                  
+  list-style: none;
+  gap: 25px;                      
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #72f132;
+}
+
+
+.nav-btn {
+  padding: 8px 16px;
+  background-color: #da4dbc;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logo:hover{
+    background-color: magenta;
+    color: #ffff;
+    border-radius: 2px;
+}
+h1,h2,h3,h4,h5{
+  font-family: sans-serif;
+  text-align: center;
+}
